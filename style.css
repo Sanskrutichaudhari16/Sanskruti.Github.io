@@ -1,0 +1,78 @@
+.flexcontainer img{
+  border-radius: 50%;
+  margin-left: 500px;
+}
+.flexcontainer h1{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.flexcontainer h2{
+  font-family:cursive;
+}
+.flexcontainer span{
+  font-size: 40px;
+}
+body{
+  margin:0px;
+  font-family: sans-serif;
+}
+.flexcontainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  color: white;
+  opacity: 0.8;
+  z-index: 9;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,133,184,0.9897001036742822) 48%, rgba(0,212,255,1) 62%);
+}
+.menu{
+  list-style-type: none;
+  position: fixed;
+  top: 20px;
+  right: 50px;
+z-index: 10;
+}
+.menu li{
+ float: left;
+}
+.menu a{
+  display: inline-block;
+  padding-left: 20px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: white;
+  font-size: 30px;
+}
+#Details{
+  text-align: center;
+  background: pink;
+}
+hr{
+  height:5px;
+  width:50px;
+  background-color: black;
+}
+p{
+  font-size:20px;
+  line-height:20px;
+  margin:50px auto;
+  max-width: 400px;
+  font-family: cursive;
+  z-index: 11;
+}
+.center{
+  text-align: center;
+}
+#videos{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#contact h3{
+  margin:0px;
+  display: inline-block;
+}
